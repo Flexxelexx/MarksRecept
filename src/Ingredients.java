@@ -5,11 +5,16 @@ public class Ingredients {
     private String name;
 
 
-    public void Ingredients (double amount, String unit, String name) {
+    public Ingredients() {
+
+    }
+
+    public Ingredients(double amount, String unit, String name) {
         this.amount = amount;
         this.unit = unit;
         this.name = name;
     }
+
 
     public double getAmount() {
         return amount;

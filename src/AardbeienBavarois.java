@@ -1,6 +1,11 @@
 public class AardbeienBavarois {
 
-    Ingredients aardbeien = new Ingredients(375, "gr", "aardbeien");
+    Ingredients aardbeien = new Ingredients(375, "gram", "aardbeien");
+    Ingredients slagroom = new Ingredients(375, "gram", "slagroom");
+    Ingredients gelatine = new Ingredients(4.5, "blaadjes", "gelatine");
+    Ingredients citroensap = new Ingredients(3, "eetlepels", "citroensap");
+    Ingredients suiker = new Ingredients(112.5, "gram", "suiker");
+    Ingredients olie = new Ingredients(1, "eetlepel", "olie");
 
 
 
@@ -45,6 +50,15 @@ public class AardbeienBavarois {
         System.out.println("Tip: wil je geen risico lopen dat de bavarois niet goed uit de vormpjes komt. Serveer de aardbeien bavarois dan in een glaasje die je laat opstijven in de koelkast.");
     }
 
+    public void printIngredients() {
+        System.out.println(aardbeien.getAmount() + " " + aardbeien.getUnit() + " " + aardbeien.getName());
+        System.out.println(slagroom.getAmount() + " " + slagroom.getUnit() + " " + slagroom.getName());
+        System.out.println(gelatine.getAmount() + " " + gelatine.getUnit() + " " + gelatine.getName());
+        System.out.println(citroensap.getAmount() + " " + citroensap.getUnit() + " " + citroensap.getName());
+        System.out.println(suiker.getAmount() + " " + suiker.getUnit() + " " + suiker.getName());
+        System.out.println(olie.getAmount() + " " + olie.getUnit() + " " + olie.getName());
+
+    }
 
     public void benodigdHeden() {
         System.out.println("Staafmixer");
