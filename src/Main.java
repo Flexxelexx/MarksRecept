@@ -3,6 +3,8 @@ public class Main {
 
         AardbeienBavarois aardbeienBavarois = new AardbeienBavarois();
 
-        System.out.println("Heerlijke recept van aardbeien bavarois voor 6 personen!");
+        System.out.println("Heerlijke recept van aardbeien bavarois voor 6 personen!\n");
+
+        aardbeienBavarois.alleStappen();
     }
 }

@@ -61,12 +61,14 @@ public class AardbeienBavarois {
     }
 
     public void benodigdHeden() {
+        System.out.println("Benodigdheden in de keuken: ");
         System.out.println("Staafmixer");
         System.out.println("Mixer");
         System.out.println("Puddingvormpjes van 10cm");
     }
     public void alleStappen() {
         benodigdHeden();
+        printIngredients();
         weekGelatine();
         pureerAardbeien();
         aardbeienSaus();
